@@ -45,8 +45,8 @@ public class AplicacaoMontadora {
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("==============================================");
-        System.out.println("  Iniciando Simulação da Montadora de PCs");
-        System.out.println("  (Simulação de Montagem)");
+        System.out.println("  Iniciando Simulacão da Montadora de PCs");
+        System.out.println("  (Simulacão de Montagem)");
         System.out.println("==============================================");
         
         // Tipos de PC disponíveis (baseado nas fábricas que a Pessoa 2 deve implementar)
@@ -68,7 +68,7 @@ public class AplicacaoMontadora {
         }
         
         if (escolha < 1 || escolha > tiposPC.length) {
-            System.out.println("\nErro: Opção inválida.");
+            System.out.println("\nErro: Opcão inválida.");
             scanner.close();
             return;
         }
@@ -87,13 +87,13 @@ public class AplicacaoMontadora {
         
         // 4. Exibe o resultado final
         System.out.println("\n==============================================");
-        System.out.println("  Configuração Final do " + tipoEscolhido);
+        System.out.println("  Configuracão Final do " + tipoEscolhido);
         System.out.println("==============================================");
         System.out.println(pcMontado.getRelatorioFinal());
         
         scanner.close();
         System.out.println("==============================================");
-        System.out.println("  Iniciando Simulação da Montadora de PCs");
+        System.out.println("  Iniciando Simulacão da Montadora de PCs");
         System.out.println("==============================================");
         
         // Simulação de uso: a Pessoa 3 instanciaria as classes da Pessoa 2
